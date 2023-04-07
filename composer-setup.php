@@ -20,6 +20,5 @@
 
     $command = "php $composerfile";
     exec($command);
-- name: Add executable permissions to composer-setup.php
-  run: chmod +x composer-setup.php
+
 
